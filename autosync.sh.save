@@ -1,0 +1,16 @@
+#!/bin/bash
+
+while true; do
+  cd /Users/tahsineeon/Documents/VScode/java-practice
+
+  git add .
+  git commit -m "Auto commit on $(date +"%Y-%m-%d %H:%M:%S")"
+  git push origin main
+
+  echo "✅ Synced at $(date). Waiting 5 minutes..."
+  sleep 300  # Waits 5 minutes (300 seconds)
+done
+
+
+
+
