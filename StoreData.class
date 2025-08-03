@@ -1,0 +1,32 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+public class StoreData {
+   public StoreData() {
+   }
+
+   public static void main(String[] var0) {
+      String var1 = "Tahsin";
+      byte var2 = 20;
+      double var3 = 5.8;
+      String var5 = "Nobin";
+      byte var7 = 25;
+      int var8 = 1234567890;
+      long var9 = 123456789012345L;
+      float var11 = 3.14F;
+      char var12 = '@';
+      boolean var13 = true;
+      String var14 = "Tahsin";
+      System.out.println("name:" + var1);
+      System.out.println("age:" + var2);
+      System.out.println("height:" + var3);
+      System.out.println("neighbour:" + var5);
+      System.out.println("friend:" + var5);
+      System.out.println("ageofnobin: " + var7);
+      System.out.println("phone: " + var8);
+      System.out.println("phone2: " + var9);
+      System.out.println("pi: " + var11);
+      System.out.println("letter: " + var12);
+      System.out.println("isAdult: " + var13);
+      System.out.println("name2: " + var14);
+      System.out.println("Length of name2: " + var14.length());
+   }
+}
